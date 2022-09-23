@@ -132,8 +132,6 @@ public : Node * root;
         return root;
     }
 
-
-
     void print(){
         print(root);
     }
@@ -146,6 +144,5 @@ public : Node * root;
         print(root->getRight());
 
     }
-
 
 };
